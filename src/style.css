@@ -1,0 +1,51 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--background-color);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card{
+    background-color: #ffffff;
+    max-width: 350px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card .image{
+    border-radius: 50%;
+    max-width: 120px;
+}
+
+.profile-card .victor{
+    margin: 20px 0;
+}
+
+.profile-card .age{
+    color: var(--text-color);
+}
+
+.profile-card .info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-top: 1px solid var(--text-color);
+}
+
+.profile-card .info .followers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
